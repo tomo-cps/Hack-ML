@@ -1,5 +1,5 @@
 import requests
-from predict_category import PredictCategory
+from img2text.predict_category import PredictCategory
 import pytorch_lightning as pl
 import os
 from pytorch_lightning.callbacks import ModelCheckpoint
