@@ -173,6 +173,7 @@ class PredictCategory():
                     'Sports', 
                     'Food', 
                     'Family']
+        
     def get_predict(self):
         embedder = sister.MeanEmbedding(lang="en")
 
